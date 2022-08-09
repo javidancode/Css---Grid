@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-header{
+    background-color: #047eb3 ;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-header .conteiner{
+    width: 68%;
+    height: 100px;
+    background-color: #047eb3;
+    display: flex;
+    justify-content: center;
+}
+
+#main-header .conteiner .logo{
+    padding-top: 20px;
+    
+}
+
+#main-header .conteiner .logo a{
+    padding-left: 20px;
+}
+
+#main-header .conteiner .navbar ul{
+    display: flex;
+}
+
+#main-header .conteiner .navbar ul li{
+    list-style: none;
+}
+
+#main-header .conteiner .navbar ul li i{
+    list-style: none;
+}
+
+#main-header .conteiner .navbar a{
+    color: white ;
+    text-decoration: none;
+}
+
+#main-header .conteiner .navbar ul li i{
+    color: white;
+    padding-top: 40px;
+    padding-right: 8px;
+    margin-left: 45px;
+}
+
+#main-header .conteiner .search-login{
+    display: flex;
+    padding-top: 25px;
+}
+
+#main-header .conteiner .search-login input{
+    width: 200px;
+    height: 45px;
+    margin-left: 80px;
+    padding-left: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#main-header .conteiner .search-login a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(186,186,250);
+}
+
+#bottom-header{
+    background-color: #047eb3;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-header .conteiner{
+    width: 68%;
+    height: 75px;
+    background-color: #047eb3;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom-header .conteiner .navbar ul{
+    display: flex;
+}
+
+#bottom-header .conteiner .navbar ul li{
+    list-style: none;
+    padding-top: 30px;
+    padding-left: -30px;
+}
+
+#bottom-header .conteiner .navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 18px;
+}
+
+#links{
+    display: flex;
+}
+
+#links .container{
+    display: flex;
+}
+
+#links .container .cards ul{
+    display: flex;
+}
+
+#links .container .speed{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 70px
+}
+
+#links .container .cards li a {
+    text-decoration: none;
+}
+
+#links .container .speed{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+#links .container .cards ul li{
+    width: 364px;
+    height: 60px;
+    background-color: rgb(143,174,174);
+    list-style: none;
+    margin-left: 24px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 17px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+
+}
+
+.col-9 {
+    width: 75%;
+
+}
+
+.col-10 {
+    width: 83.33%;
+
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
